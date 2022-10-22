@@ -27,3 +27,8 @@
 - Push the code on github
 - Host on github pages
 - Add the link to ```../../README.md``` hosted link section
+
+
+- Hotsted Link - https://shubham-gawai.github.io/very-basic-resume/
+
+
