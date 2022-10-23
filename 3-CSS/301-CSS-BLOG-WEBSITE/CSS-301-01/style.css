@@ -1,1 +1,27 @@
 /* start your css here */
+*{
+    font-family: "Mulish";
+}
+.heading-text{
+    margin: 4rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+.Aa-Aa-Aa{
+    text-align: center;
+}
+pre{
+    font-family : 'default';
+    padding-left: 430px;
+    margin-top: 31px;
+    font-size: larger;
+}
+iframe{
+    width:560px; 
+    height:315px;
+    margin-left: 480px;
+    margin-top: 0px;
+}
+.footer-text{
+    margin-top: 60px;
+}
