@@ -1,0 +1,27 @@
+     main{
+        text-align: center;
+        margin-top: 120px;;
+      }
+      input{
+        width: 680px;
+        height: 40px;
+        border-radius: 22px;
+      }
+      #google{
+        font-size:80px;
+        font-weight: 650;
+        margin-bottom: 18px;
+      }
+      button{
+        height: 32px;
+        border: none;
+      }
+      .input-group-text{
+        background: none;
+         width: 0px;
+        height: 0px;
+        border-radius: 22px;
+      }
+      .lang b a{
+        text-decoration: none;
+      }
