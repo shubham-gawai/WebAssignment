@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/full-shot-woman-reading-with-smartphone_23-2149629602.jpg?size=626&ext=jpg&ga=GA1.2.234515553.1662736605" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/full-shot-people-cleaning-together_23-2149629604.jpg?size=626&ext=jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/brunette-young-woman-beret-white-tee-coat-jeans-looks-into-camera-smiles-stylish-girl-sits-floor-leans-suitcase-holds-map-isolated-yellow-background_197531-29317.jpg?size=626&ext=jpg" alt="">
+        </div>
+    </div>
+    <span class="arrow next" onclick="controller(1)">&#10095</span>
+    <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+    <script src="app.js"></script>
+</body>
 </html>
