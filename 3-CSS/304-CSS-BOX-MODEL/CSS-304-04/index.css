@@ -1,1 +1,23 @@
 /* start your css here */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+ul li{
+    list-style-type: none;
+    padding-top: 23px;
+    margin-left: 60px;
+    padding: 20px;
+}
+div ul{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color:black;
+    color: whitesmoke;
+    height: 62px;
+}
+div li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
