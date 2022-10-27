@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    /* padding-top: 120px; */
+    text-align: center;
+    /* background-color: aqua; */
+}
+h1, h3{
+    color: green
+}
+.first{
+    padding-top: 120px;
+}
+
