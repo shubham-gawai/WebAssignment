@@ -12,5 +12,5 @@ function chnageimage(){
     // Append to another element:
     document.getElementById("new-div").appendChild(d);
     document.getElementById("new-div").appendChild(c);
-    
+
 }
