@@ -1,1 +1,158 @@
-/* start your styling here  */
+/* start your styling here */
+    main{
+        /* text-align: center; */
+        padding-left: 560px;
+        padding-top: 120px;
+    }
+    *{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .blue{
+        width: 420px;
+        height: 420px;
+        background-color: rgba(4, 84, 76, 0.732);
+        padding-left: 39px;
+        padding-top: 37px;
+        
+    }
+    .pink{
+        width: 380px;
+        height: 355px;
+        background-color: rgb(184, 75, 94);
+        box-shadow: 0 4px 0 rgb(116, 38, 59);
+        border-radius: 16px;
+        
+    }
+    .first-row{
+        display: flex;
+        
+    }
+    .c{
+        height: 40px;
+        width: 52px;
+        background-color: orange;
+        margin: 12px;
+        margin-left: 26.8px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(158, 158, 83);
+        font-weight: 400;
+    }
+    .display-plate{
+        height: 40px;
+        width: 234px;
+        background-color: rgba(4, 84, 80, 0.732);
+        margin: 12px;
+        margin-left: 26px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 2px 4px 8px 2px rgba(3, 11, 11, 0.412);
+        
+    }
+    .second-row{
+        display: flex;
+        justify-content: space-evenly;  
+    }
+    .seven, .eight, .nine {
+        height: 40px;
+        width: 52px;
+        background-color: rgba(4, 84, 80, 0.732);
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(31, 54, 53);
+      
+    }
+    .x{
+        height: 40px;
+        width: 52px;
+        background-color: orange;
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(158, 158, 83);
+        
+    }
+    
+    .third-row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .four, .five, .six{
+        height: 40px;
+        width: 52px;
+        background-color: rgba(4, 84, 80, 0.732);
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(31, 54, 53);
+    }
+    .slash{
+        height: 40px;
+        width: 52px;
+        background-color: orange;
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(158, 158, 83);
+    }
+    .forth-row{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .one, .two, .three{
+        height: 40px;
+        width: 52px;
+        background-color: rgba(4, 84, 80, 0.732);
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(31, 54, 53);
+    }
+    .plus{
+        height: 40px;
+        width: 52px;
+        background-color: orange;
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(158, 158, 83);
+    }
+    .last-row{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .dot, .zero, .equal{
+        height: 40px;
+        width: 52px;
+        background-color: rgba(4, 84, 80, 0.732);
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(31, 54, 53);
+    }
+    .equal{
+        background-color: rgb(56, 148, 148) !important;
+    }
+    .minus{
+        height: 40px;
+        width: 52px;
+        background-color: orange;
+        margin: 12px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 rgb(158, 158, 83);
+    }
+    .seven , .eight,.nine, .four, .five, .six, .one, .two,.three, .dot, .zero{
+        color: white;
+        
+    }
+    .display-plate{
+        color: white;
+    }
+    .equal, .slash, .plus, .minus{
+        font-weight: 1000;
+    }
+   
