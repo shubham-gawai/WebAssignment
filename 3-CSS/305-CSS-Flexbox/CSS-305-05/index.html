@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/1200px-WPVG_icon_2016.svg.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Game page</title>
 </head>
 <body>
     <!-- start your code here -->
+    <div class="container">
+        <div class="left-panel">
+            <div class="intro">
+                <img src="https://i0.wp.com/realenglishforgamers.com/wp-content/uploads/2018/11/ninjaFB.png?resize=320%2C320&ssl=1" alt="">
+                <br>
+                <b>Simon Edwin</b>
+                <p>Pro Member</p>
+            </div>
+            <div class="icons streams">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQflhOLn5e05hx2l16p0pYhRXHg6D5tB2B1V4OQvXIek-p4gLxXAYpLCwLSmsugxzQAh_U&usqp=CAU" alt="strean-img">
+                <b>Streams</b>
+            </div>
+            <div class="icons games">
+               <img src="data:image/jpeg;base64,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" alt="">
+               <b>Games</b>
+            </div>
+            <div class="icons new">
+                <img src="https://images.hdqwalls.com/download/gaming-controller-minimal-dark-5k-zp-1440x900.jpg" alt="">
+                <b>New</b>
+            </div>
+            <div class="icons library">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-Lej72ysRjO4EtvWD1qtmMkipeCfRTgQUg&usqp=CAU" alt=""> 
+                <b>Library</b>
+            </div>
+
+            <div class="join-section">
+                <div class="join"><b>Join pro <br> for free <br> games</b></div>
+                <div class="join-logo"><img src="join-icon.png" alt=""></div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="active-games">
+                <h1>Active Games</h1>
+                <div class="range"></div>
+            </div>
+            <div class="posters">
+               <div class="p1">
+                    <div class="img-div">
+                        <img src="assasin.jpg" alt="">
+                    </div>
+                    <div class="content-div">
+                        <b2>Assassin Creed valhalla</b2>
+                        <p>PS$ Version</p>
+                        <div class="range"></div>
+                    </div>
+                    <div class="percent-div">60%</div>
+               </div>
+               <div class="p1">
+                <div class="img-div">
+                    <img src="assasin.jpg" alt="">
+                </div>
+                <div class="content-div">
+                    <b2>Assassin Creed valhalla</b2>
+                    <p>PS$ Version</p>
+                    <div class="range"></div>
+                </div>
+                <div class="percent-div">60%</div>
+           </div>
+           <div class="p1">
+            <div class="img-div">
+                <img src="assasin.jpg" alt="">
+            </div>
+            <div class="content-div">
+                <b2>Assassin Creed valhalla</b2>
+                <p>PS$ Version</p>
+                <div class="range"></div>
+            </div>
+            <div class="percent-div">60%</div>
+       </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,1 +1,106 @@
 /* start your styling here  */
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-color: rgb(30, 108, 82);
+   padding-left: 360px;
+}
+.container{
+    display: flex;
+}
+.left-panel{
+    width: 240px;
+    height: 680px;
+    background-color: rgb(43, 136, 105);
+    border-radius: 12px;
+    
+}
+.right-panel{
+    width: 440px;
+    height: 680px;
+    background-color: rgb(74, 124, 107);
+    padding-left: 60px;
+    border-radius: 8px;
+}
+.intro img{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+}
+.intro{
+    text-align: center;
+    margin-top: 22px;
+}
+.icons img{
+    height: 28px;
+    width: 28px;
+    border-radius: 30px;
+    margin-top: 38px;
+    margin-left: 38px;
+    
+}
+.icons b{
+    margin-left: 20px;
+    color: rgb(7, 47, 64);
+    font-size: 18px;
+}
+.join-section{
+    display: flex;
+    height: 80px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 56px;
+    border-radius: 16px;
+    background-color: rgb(21, 97, 72);
+}
+.join-section b {
+   
+    font-size: 16px;
+}
+ .join{
+    margin-left: 30px;
+    margin-top: 14px;
+ }
+ .join-logo{
+    margin-left: 26px;
+ }
+.join-section img{
+    width :40px;
+    height: 32px;
+    margin-top: 23px;
+    margin-right: 6px;
+}
+.active-games h1{
+    color:rgb(7, 49, 38) ;
+}
+.range{
+    width: 201px;
+    height: 12px;
+    background-color: rgb(11, 51, 38);
+    border-radius: 8px;
+}
+.p1, p2, p3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.p1 img{
+    width: 90px;
+    height: 75px;
+    border-radius: 12px;
+    margin: 13px;
+}
+.p1{
+    margin-top: 60px;
+    background-color:rgb(35, 101, 86);
+    border-radius: 12px;
+}
+.p1 .content-div{
+    margin-top: 12px;
+}
+.p1 .percent-div{
+    margin-top: 40px;
+    margin-right: 23px;
+    
+}
