@@ -1,0 +1,25 @@
+ 
+
+body{
+    background-color: rgba(0, 0, 0, 0.793);
+}
+.box1{
+    background-image: linear-gradient(to bottom left, rgba(209, 86, 143, 0.853), rgba(117, 114, 29, 0.919));
+    height: 160px;
+}
+.box2{
+    background-image: linear-gradient(to bottom left, rgb(178, 100, 184), rgba(143, 17, 17, 0.919));
+    height: 337px;
+}
+.box3{
+    background-image: linear-gradient(to bottom left, rgba(24, 160, 173), rgba(27, 35, 41, 0.919));
+    height: 160px;
+}
+img{
+    width: 50px;
+}
+.img-sec{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
