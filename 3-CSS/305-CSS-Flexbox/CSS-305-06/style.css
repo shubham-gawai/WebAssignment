@@ -90,3 +90,8 @@ ul{
     height: 40px;
     width: 92px;
 }
+.legend{
+    width: 120px;
+    height: 2px;
+    border: 2px solid black;
+}
