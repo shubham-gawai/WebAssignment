@@ -1,1 +1,81 @@
-/* start your styling here  */
+ /* start your styling here  */
+img{
+    width: 70px;
+}
+.discount-img{
+    width: 100%;
+}
+.img-logo{
+    width: 80px;
+}
+.nav-section{
+    background-color: rgb(68, 117, 207);
+    color: white;
+}
+.ei{
+    color: white;
+}
+.pi{
+    color: darkkhaki;
+}
+.figc{
+    font-size: 13px;
+}
+input{
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 35px;
+    box-shadow: 0px 2px 0px rgb(4, 39, 102,0.413) ;
+}
+input::placeholder{
+    padding-left: 12px;
+}
+.search-logo{
+    background-color: white;
+    color: rgb(68, 117, 207) ;
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 0px rgb(4, 39, 102,0.413) ;
+}
+.loginbtn{
+    width: 120px;
+    height: 31px;
+    margin-top: 2px;
+    background-color: white;
+    border: none;
+    color: rgb(37, 106, 179);
+    font-weight: 600;
+    box-shadow: 0px 2px 0px rgb(4, 39, 102,0.413) ;
+}
+.plus-logo{
+    color: burlywood;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-fluid{
+    padding-left: 152px;
+   
+    height: 35px;
+}
+.row{
+    margin-top: 20px;
+   
+}
+.col-md-1{
+    margin-left: 20px;
+}
+.col-md-1 a b{
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+}
+/* .row{
+    background-color: blue;
+} */
