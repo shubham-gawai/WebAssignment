@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="gridimage.png">
+    <link rel="stylesheet" href="style.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid Structure</title>
 </head>
 <body>
-    <!-- start your code here -->
+    <div class="head-content">
+        <div class="navbar">
+            <div><button>HOME</button></div>
+            <div><button>ABOUT</button></div>
+            <div class="logo"><img src="data:image/png;base64,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" alt=""></div>
+            <div><button>MENU</button></div>
+            <div><button>CONTACT</button></div>
+        </div>
+    </div>
+   
+    <div class="container">
+        <div class="box b1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBypCBBUA7tUO_p4KYxYzcHOEwbeIM42cFw&usqp=CAU" alt=""></div>
+        <div class="box b2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5QlM51NVgzdyTCRWwfI_aaJuF0uFyJ4M-A&usqp=CAU" alt=""></div>
+        <div class="box b3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSERQMSA5-kJLSPNN1YTD9OMbuNVMSyBUpDTA&usqp=CAU" alt=""></div>
+        <div class="box b4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MsMpqf2veqM4NDgh8VPMFazUbxj0hLbh6g&usqp=CAU" alt=""></div>
+        <div class="box b5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eWa-c76HJKIAgNkBlxBruWaBioojzxWdXQ&usqp=CAU" alt=""></div>
+        <div class="box b6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXA6P-RTKRX0gkl2uTUEvngYcqo4TVwuvCDaeAjK3Ysw8t_TW7CjBqmW75KeO24cix6XU&usqp=CAU" alt=""></div>
+        <div class="box b7"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI9l0I8ND6g8gYJS-1tSJ7g7a4rC8nxtW0CA&usqp=CAU" alt=""></div>
+        <div class="box b8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXealAJV5J0oZ8_uX9VHk7fJ3t_Yooh1dmg&usqp=CAU" alt=""></div>
+        <div class="box b9"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZOLmEw5uxDUYryFYh0xuWmwol7J0lHudAXQ&usqp=CAU" alt=""></div>
+    </div>
+    <div class="bottom-content">
+        <div class="bottom">
+            <div><p>HOME</p> </div>
+            <div><p>ABOUT</p></div>
+            <div><p>MENU</p></div>
+            <div><p>CONTACT</p></div>
+            <div><p>: Mercern Tavern 2013</p></div>
+        </div>
+        <div class="last-content">
+            <p>SITE BY VERSET</p>
+        </div>
+    </div>
 </body>
 </html>
