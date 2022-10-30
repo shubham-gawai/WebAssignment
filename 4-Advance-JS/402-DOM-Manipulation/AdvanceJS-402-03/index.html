@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="shopping.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping List</title>
+    <title>My Shopping List</title>
   </head>
   <body>
-    <main>
-      <div>
-        <h1>My shopping list</h1>
-      </div>
-      <div>
-        <label for="items">
-          Enter a new item: <input id="input-el" type="text"> <button onclick="additem()">Add item</button>
-        </label>
-      </div>
-      <div class="new-div"></div>
-    </main>
+    <div class="container">
+        <h1>My Shopping List</h1>
+
+        <label for="new-iten">Enter a new item:</label>
+        <input type="text" placeholder="" id="item">
+
+        <button onclick="addItems()"><b>Add item</b></button>
+        
+        <ul id="unorderedRef"></ul>
+    </div>
+    
     <script src="app.js"></script>
   </body>
 </html>

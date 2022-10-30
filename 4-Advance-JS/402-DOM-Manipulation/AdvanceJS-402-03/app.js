@@ -1,24 +1,22 @@
-alert('hi');
+//
 
+function addItems() {
+  var item = document.getElementById("item");
+  if (item.value === "") {
+    alert("Please enter your Item");
+    return;
+  }
 
-var unorder = document.createElement("ul");
-var list = document.createElement("li");
-var d = document.createElement("button");
+  let liRef = document.createElement("li");
 
-function chnageimage(){
-    c.innerHTML=document.getElementById('input-el').value;
-    
-    d.innerHTML = "delete";
+  liRef.innerHTML = `${
+    document.getElementById("item").value
+  }<button style="margin:12px" onclick="deleteItems(this)">delete</button>`;
 
-    // Append to another element:
-    document.getElementById("new-div").appendChild(c);
-    document.getElementById("new-div").appendChild(d);
-    
+  document.getElementById("unorderedRef").appendChild(liRef);
+  document.getElementById("item").value = "";
 }
 
-
-// D: Deleting a post
-let deletePost = function (e) {
-    e.parentElement.parentElement.remove();
-    console.log('delete', e.parentElement.parentElement);
-  };
+function deleteItems(e) {
+  e.parentElement.remove();
+}
