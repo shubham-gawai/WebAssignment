@@ -1,0 +1,33 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+ main{
+  text-align: center;
+ }
+p{
+  font-size: 42px;
+  box-shadow: 0px 0px 5px black;
+  padding: 10px 40px;
+  font-weight: 700;
+}
+
+span {
+  color: rgb(103, 158, 47);
+}
+
+.one {
+  width: 720px;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.two {
+  width: 140px;
+  height: 180px;
+  margin-right: 172px;
+  padding-top: 49px;
+}
+
+.new-span {
+  font-size: 42px;
+}
