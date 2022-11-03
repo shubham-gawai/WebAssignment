@@ -1,1 +1,152 @@
 /* start your styling here  */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation bar and contents  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(249, 227, 139);
+  -webkit-box-shadow: 0px 4px 4px rgba(176, 149, 113, 0.447);
+  position: fixed;
+  /* z-index: 9999; */
+  width: 100%;
+}
+.logo img {
+  height: 62px;
+  width: 182px;
+  padding-left: 45px;
+}
+.nav-elements {
+  padding-top: 11.4px;
+}
+.nav-elements ul li {
+  display: inline;
+  /* padding-right: 48px; */
+  margin-right: 48px;
+  font-weight: bold;
+}
+.nav-elements ul li a {
+    text-decoration: none;
+    color: black;
+}
+/*  main contents left side text-para and right side image and icons */
+
+main {
+  padding-top: 64px;
+}
+.main-content {
+  display: flex;
+}
+
+.left-content {
+  margin-left: 160px;
+  margin-right: 120px;
+}
+.left-content p {
+  font-size: 14px;
+  line-height: 23px;
+}
+.right-content {
+  /* margin-left: 120px; */
+  margin-right: 340px;
+}
+.right-content img {
+  width: 320px;
+  height: 330px;
+}
+.icons {
+  margin-top: 60px;
+}
+
+.icons a i {
+  padding-left: 45px;
+  text-decoration: none;
+  color: black;
+}
+
+/* buttons section  */
+
+.buttons {
+  text-align: center;
+  padding-top: 65px;
+  height: 130px;
+  background-color: rgb(59, 55, 62);
+}
+button {
+  height: 42px;
+  margin: 13px;
+  border-radius: 8px;
+  border: none;
+}
+.button-1 {
+  width: 210px;
+}
+.button-2 {
+  width: 141px;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  address and footer section  */
+
+.footer {
+  text-align: center;
+  background-color: rgb(16, 53, 56);
+  color: white;
+}
+
+/*  nav eleemnts hover color change to green  : and border at top to green */
+.nav-elements ul li A:hover {
+  color: rgba(9, 100, 80, 0.688);
+  border-top: 2px solid rgba(90, 148, 23, 0.968);
+}
+
+/*  icons hover color change to blue  */
+a i:hover {
+  color: rgb(40, 20, 173);
+}
+
+/*  butttons hover color change to light white */
+.button-1 a:hover {
+  color: rgba(28, 24, 18, 0.473);
+}
+.button-2 a:hover {
+  color: rgba(28, 24, 18, 0.473);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 102px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 14px;
+   
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
