@@ -1,0 +1,40 @@
+body {
+  background-image: url(vegetables.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color: black;
+}
+#banner{
+  height: 650px;
+  width: 402px;
+}
+.banner {
+  background-color: white;
+}
+span {
+  text-align: center;
+}
+h6 {
+  text-align: center; 
+}
+h1 {
+  text-align: center;
+  color: brown;
+  
+}
+button {
+  background-color: rgb(106, 28, 28);
+  color: white;
+  border: 2.4px solid black;
+  box-shadow: 0px 0px 5px rgba(31, 27, 27, 0.362);
+  padding: 10px 40px;
+  height: auto;
+  width: 352px;
+}
+label, .ms-2{
+  font-weight: bold;
+}
+
+.text-center{
+  margin-top: 22px;
+}
