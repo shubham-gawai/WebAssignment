@@ -1,0 +1,33 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 16px;
+  
+}
+  
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ 
+table{
+    margin-top: 3.2%;
+    border:0.4px solid #e1d4d4;
+    height: 100%;
+    width: 100%;
+    /* padding-left: 18px; */
+}
+h2{
+    border-bottom: solid;
+    padding-bottom: 1.2%;
+}
+td{
+    border-bottom: 0.1px solid white;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+}
+ 
