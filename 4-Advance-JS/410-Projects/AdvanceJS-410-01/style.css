@@ -1,0 +1,53 @@
+#result {
+  border-bottom: 2px solid rgba(126, 37, 37, 0.301);
+  margin-top: 4% !important;
+}
+img {
+  height: 95%;
+  width: 70%;
+  border-radius: 50%;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  height: 5%;
+  width: 5%;
+  padding-left: 2%;
+}
+nav {
+  -webkit-box-shadow: 0px 0px 8px red;
+}
+.navbar a {
+  color: white !important;
+}
+.navbar-brand {
+  padding-left: 6%;
+}
+.nav-item .nav-link {
+  margin-left: 20% !important;
+}
+.btn a {
+  color: white;
+}
+div a h4 {
+  padding-top: 40%;
+  /* margin-bottom: 24%; */
+}
+div a p {
+  /* padding-top: 10%; */
+  /* padding-left: 32%; */
+  color: rgba(255, 255, 255, 0.622);
+}
+div a {
+  text-decoration: none;
+}
+.new-div {
+  display: flex;
+}
+.navbar-toggler {
+  background-color: white;
+}
