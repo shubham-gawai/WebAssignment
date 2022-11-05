@@ -55,7 +55,7 @@ let calculateWeight = () => {
       document.getElementById("required-msg2").style.display = "none";
 
       nameOfPlanet.innerText = "EARTH";
-      planetImage.src = "ProjectImage/earth.png";
+      planetImage.src = "earth.png";
       weight.innerText = `${parseFloat(mass.value * 9.81).toFixed(2)} N`;
     } else if (dropd.value === "moon") {
       document.getElementById("default").style.display = "none";
