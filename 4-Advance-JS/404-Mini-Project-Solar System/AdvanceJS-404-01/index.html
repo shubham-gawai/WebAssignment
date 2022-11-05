@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="ProjectImage/mercury.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Lobster+Two:wght@700&family=Montserrat:wght@100;400;500;600&family=Mulish:wght@300;400;600;700;800;900&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Solar Object</title>
+  </head>
+  <body>
+    <!-- heading and mass button -->
+    <p class="heading">Calculate a weight of an object on a planet</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mx-auto mt-5">
+          <input type="number" placeholder="Mass in Kilogram" id="mass" />
+          <select name="" id="dropd" onchange="fn(event)">
+    <!-- select options -->
+            <option value="selectPlanet" selected disabled>
+              --Select planet--
+            </option>
+            <option value="mercury">MERCURY</option>
+            <option value="venus">VENUS</option>
+            <option value="earth">EARTH</option>
+            <option value="moon">MOON</option>
+            <option value="mars">MARS</option>
+            <option value="jupiter">JUPITER</option>
+            <option value="saturn">SATURN</option>
+            <option value="uranus">URANUS</option>
+            <option value="neptune">NEPTUNE</option>
+            <option value="pluto">PLUTO</option>
+          </select>
+          <button class="btn-click" onclick="calculateWeight()">
+            Calculate Weight
+          </button>
+<!-- image shown by defalut and empty fields message-->
+          <img id="default" src="Projectimage/earth.png" alt="" />
+          <div id="required-msg1">
+            <p>Mass is required</p>
+          </div>
+          <div id="required-msg2">
+            <p>select a Planet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- display content after input all fields -->
+    <div class="container" id="calculateF">
+      <div class="row">
+        <div
+          class="col-md-10 banner mx-auto p-5 mt-5 d-flex align-items-center"
+        >
+          <div class="col-md-6">
+            <img src="" alt="" id="planetImage" />
+          </div>
+          <div class="col-md-6 banner-in p-5 text-center">
+            <p class="mb-4">
+              The weight of the object on <span id="nameOfPlanet"></span>
+            </p>
+            <span class="p-4" id="weight"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
