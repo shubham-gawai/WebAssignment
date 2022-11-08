@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="dictionary.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary</title>
+</head>
+<body> 
+    <div>
+        <div>
+            <h1 class="heading">
+                Dictionary
+            </h1>
+        </div> 
+    
+         <div class="main-wrap">
+            <section class="input container">
+                <h2>
+                    Find any word exist in the world
+                </h2>
+                <div class="form_wrap">
+                    <div class="input_wrap">
+                        <input type="text" id="input" placeholder="type a word">
+                        <button class="search-btn" id="search">Search</button>
+                    </div>
+                </div>
+            </section> 
+        
+            <section class="data container">
+                <p class="def"></p>
+                <div class="not_found"></div> 
+            </section>
+         </div>
+         <footer>
+            <div>
+                <h4>Made by Geekster </h4>
+            </div>
+         </footer>
+    </div>
+   
+    
+    <script src="app.js"></script>
+</body>
 </html>
