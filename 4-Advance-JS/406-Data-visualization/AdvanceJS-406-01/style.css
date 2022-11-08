@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    color:rgb(103, 28, 1)
+}
+main{
+    
+}
+.top-section{
+    padding-top: 2%;
+    text-align: center;
+    background-image: url('map.jpg');
+    /* opacity: 0.85; */
+    
+    height: 450px;
+}
+h1{
+  font-size: 68px;
+}
+h4{
+    font-size: 28px;
+}
+button{
+    height: 32px;
+    background-color: rgba(20, 20, 72, 0.789);
+    color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0px 12px 0px 12px;
+}
+input{
+    width: 420px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+input::placeholder{
+    padding-left: 150px;
+    font-size: 14px;
+}
+i{
+    margin-left: 8px; 
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.862);
+}
+textarea:focus, input:focus{
+    outline: 2.2px solid rgba(3, 69, 31, 0.579);
+}
+#grid{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* background-color: rgb(21, 126, 168); */
+}
+p{
+    height: 210px;
+    width: 240px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRIm1YfyvMkYsU4m2q-ULPoIE7oOYHc9w4w&usqp=CAU');
+    text-align: center;
+    padding-top: 110px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 6px 6px 6px 6px rgba(0, 128, 0, 0.611);
+    
+}
+#no-of-countries{
+    font-size: 18px;
+}
