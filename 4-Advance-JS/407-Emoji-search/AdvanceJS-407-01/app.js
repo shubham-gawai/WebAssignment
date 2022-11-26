@@ -14,6 +14,7 @@ const displaySearchResults = (searchQuery = "") => {
       return true;
     }
   });
+  
   const parent = document.getElementById("search_result_container");
   parent.innerHTML = "";
   filter.forEach((e) => {
