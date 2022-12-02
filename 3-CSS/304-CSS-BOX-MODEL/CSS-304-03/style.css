@@ -1,9 +1,11 @@
-/* start your css here */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img{
     width: 280px;
     height: 330px;
 }
 .product-name, .price{
     padding-left: 26px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
