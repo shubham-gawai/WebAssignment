@@ -1,0 +1,18 @@
+ label{
+    color: orange;
+ }
+.main-content{
+   width: 45% !important;
+   
+}
+.form-control{
+    height: 45px !important;
+    border-radius: none !important;
+    background-color: rgba(128, 128, 128, 0.121) !important;
+}
+.input-group-text{
+    width: 42px !important;
+} 
+.input-group .dd, .mm{
+    width: 12px !important;
+}
