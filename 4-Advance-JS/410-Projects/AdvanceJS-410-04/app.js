@@ -11,7 +11,7 @@ function input (e){
     e.preventDefault();
     
     var word=document.getElementById('inputValue').value;
-// console.log(word);
+    // console.log(word);
 
     if(word===""){
         alert("enter a city name"); 
@@ -21,24 +21,25 @@ function input (e){
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${word}&appid=${apiKey}`)
     .then((response)=>response.json()).then((data)=>{
 
-    // console.log(data)
-  
-    document.getElementById("display").style.display = "block";
-   
-    var cityValue = data.name;
-    var tempValue=data.main.temp
-    var descValue=data.weather[0].description
-    var windspeedValue=data.wind.speed;
+        // console.log(data)
+    
+        document.getElementById("display").style.display = "block";
+    
+        var cityValue = data.name;
+        var tempValue=(data.main.temp);
+    
+        var descValue=data.weather[0].description
+        var windspeedValue=data.wind.speed;
 
-    city.innerHTML= 'weather of:' + ' ' + cityValue;
-    temp.innerHTML= 'Temperature:' + ' ' + tempValue;
-    desc.innerHTML = 'Sky Conditions:' + ' ' + descValue;
-    windspeed.innerHTML ='Wind Speed:'+ ' ' + windspeedValue;
+        city.innerHTML= 'weather of' + ' ' + cityValue;
+        temp.innerHTML= 'Temperature:' + ' ' + tempValue;
+        desc.innerHTML = 'Sky Conditions:' + ' ' + descValue;
+        windspeed.innerHTML ='Wind Speed:'+ ' ' + windspeedValue;
 
-})
+    })
  
 
  
 }
 
-inputValue.addEventListener('submit',input);
+    inputValue.addEventListener('submit',input);

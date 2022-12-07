@@ -5,7 +5,8 @@
     color: rgb(255, 255, 255);
 }
 body{
-    background-color: rgba(112, 33, 11, 0.589);
+    /* background-color: rgba(112, 33, 11, 0.589); */
+    background-color: rgb(22, 83, 63);
     margin: 0px;
     padding: 0px;
 }
@@ -26,6 +27,8 @@ input[type='text']{
     padding: 10px;
     color: black;
     font-size: 16px;
+    border:none;
+    
 }
 input[type='submit']{
    cursor: pointer; 
@@ -33,7 +36,8 @@ input[type='submit']{
    width: 120px;
    margin-top: 15px;
    border-radius: 5px;
-   background-color: rgb(2, 10, 0);
+   /* background-color: rgb(0, 9, 10); */
+   background-color: rgba(2, 2, 20, 0.795);
    color:white;
    border: none;
    font-size: 16px;
@@ -55,7 +59,7 @@ input[type='submit']{
     /* text-align: center; */
     margin-top: 45px;
     margin-bottom: 40px;
-    background-color: rgba(4, 37, 55, 0.589);
+    background-color: rgba(6, 26, 37, 0.721);
     display: inline-block;
     border-radius: 10px;
     padding: 10px; 
@@ -66,7 +70,9 @@ input[type='submit']{
     font-weight: 900;
     height: 120px;
     width: 100%;
-    background-color: rgba(151, 13, 13, 0.767);
+    /* background-color: rgba(151, 13, 13, 0.767); */
+    background-color: rgba(7, 46, 33, 0.704);
+
     color: white;
     padding-top: 27px;
 }
