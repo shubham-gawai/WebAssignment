@@ -1,103 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="flipkart-icon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="flipkart-icon.png" type="image/x-icon" />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- costom link -->
+    <link rel="stylesheet" href="style.css" />
     <title>Flipkart</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- start your code here -->
     <nav class="navbar navbar-expand-lg nav-section navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-5" href="#">
-            <img class="img-logo ms-5" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="">
-            <figcaption class="figc ms-5"><i class="ei">Explore </i><span><i class="pi fw-bold">Plus</i></span> <span class="plus-logo fw-bold"><i class="fa-solid fa-plus"></i></span></figcaption>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">
+          <img
+            class="img-logo ms-5"
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+            alt=""
+          />
+          <figcaption class="figc ms-5">
+            <i class="ei">Explore </i
+            ><span><i class="pi fw-bold">Plus</i></span>
+            <span class="plus-logo fw-bold"
+              ><i class="fa-solid fa-plus"></i
+            ></span>
+          </figcaption>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+        <div class="d-flex">
+          <input
+            type="text"
+            placeholder="Search for product, brands and more"
+          />
+          <div class="search-logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <button class="loginbtn ms-5">Login</button>
         </div>
-        <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
-          <div class="d-flex">
-            <input type="text" placeholder="Search for product, brands and more">
-            <div class="search-logo">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <button class="loginbtn ms-5">Login</button>
-          </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active fw-bold ms-4" aria-current="page" href="#" style="width:150px">Become a Seller</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active fw-bold ms-4"
+              aria-current="page"
+              href="#"
+              style="width: 150px"
+              >Become a Seller</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link active fw-bold dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Notification Preferences</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Notification Preferences</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">24x7 Customer Care</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Advertise</a></li>
-                </ul>
-              </li>
-              <li class="nav-item d-flex me-5">
-                <a class="nav-link active fw-bold" aria-current="page" href="#" style="width:80px;">Cart <span class="ms-1"><i class="fa-solid fa-cart-shopping"></i></span></a>
-              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">24x7 Customer Care</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Advertise</a></li>
             </ul>
-          </div>
-      </nav>
-      <div class="container">
-        <div class="row justify-content-evenly mx-auto">
-            <div class="col-md-1">
-                <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt=""><b>Top Offers</b></a>
-            </div>
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt=""><b>Grocery</b></a>
-            </div>
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt=""><b>Mobiles</b></a>
-            </div>  
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100" alt=""><b>Fashion</b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt=""><b>Electronics </b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt=""><b>Home </b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt=""><b>Appliances</b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt=""><b>Travel</b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt=""><b>Toys</b></a>
-            </div> 
-            <div class="col-md-1">
-              <a href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100" alt=""><b>2Wheelers</b></a>
-            </div> 
-           
+          </li>
+          <li class="nav-item d-flex me-5">
+            <a
+              class="nav-link active fw-bold"
+              aria-current="page"
+              href="#"
+              style="width: 80px"
+              >Cart
+              <span class="ms-1"><i class="fa-solid fa-cart-shopping"></i></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-evenly mx-auto">
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100"
+              alt=""
+            /><b>Top Offers</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"
+              alt=""
+            /><b>Grocery</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"
+              alt=""
+            /><b>Mobiles</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100"
+              alt=""
+            /><b>Fashion</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+              alt=""
+            /><b>Electronics </b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"
+              alt=""
+            /><b>Home </b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100"
+              alt=""
+            /><b>Appliances</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"
+              alt=""
+            /><b>Travel</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"
+              alt=""
+            /><b>Toys</b></a
+          >
+        </div>
+        <div class="col-md-1">
+          <a href="#"
+            ><img
+              src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100"
+              alt=""
+            /><b>2Wheelers</b></a
+          >
         </div>
       </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-                
-
-
-
-
-
-
-
-
