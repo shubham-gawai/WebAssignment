@@ -3,16 +3,34 @@
  }
 .main-content{
    width: 45% !important;
-   
 }
-.form-control{
+.form-control.name, .form-control.email,.form-control.password {
     height: 45px !important;
-    border-radius: none !important;
     background-color: rgba(128, 128, 128, 0.121) !important;
 }
 .input-group-text{
     width: 42px !important;
 } 
-.input-group .dd, .mm{
-    width: 12px !important;
+.dob{
+    height: 45px !important;
 }
+.dd,.mm{
+    width: 56px !important;
+    height: 45px !important;
+    background-color: rgba(128, 128, 128, 0.121) !important;
+    margin-right:8px !important;
+    border: 0.1px solid rgba(94, 88, 88, 0.223) !important;
+}
+.yyyy{
+    background-color: rgba(128, 128, 128, 0.121) !important;
+    width: 78px !important;
+    border: 0.1px solid rgba(94, 88, 88, 0.223) !important;
+}
+ .dob{
+    /* padding-left: 28.6% !important; */
+    display:flex;
+    justify-content:space-between;
+ }
+ .input-group::placeholder{
+    padding-left: 45px !important;
+ }

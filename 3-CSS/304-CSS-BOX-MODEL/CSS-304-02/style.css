@@ -24,19 +24,21 @@ i, a, h2{
     width: 518px;
     height: 40px;
     padding-top: 12px;
+    /* outline: none; */
 }
+
+/* .name,.surname,.email::placeholder{
+    padding-left: 20px; 
+    margin-left: 20px;
+    font-weight: 400;
+    font-size:medium;
+    color:red;
+} */
+ 
 ::placeholder{
     padding-left: 20px;
     font-weight: 400;
     font-size:medium;
-    /* color:red; */
-}
-
-.date,::placeholder{
-    /* padding-left: 20px; */
-    font-weight: 400;
-    font-size:medium;
-    
 }
 
 .submit-btn{

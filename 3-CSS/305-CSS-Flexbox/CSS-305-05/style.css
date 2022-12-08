@@ -5,11 +5,14 @@
 }
 body{
     background-color: rgb(30, 108, 82);
-   padding-left: 360px;
+   /* padding-left: 360px; */
 }
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .left-panel{
     width: 240px;
     height: 680px;
