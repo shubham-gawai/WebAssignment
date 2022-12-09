@@ -1,6 +1,7 @@
 /* start your styling here */
 body{
-    background-color: rgb(15, 122, 94);
+    margin: 0;
+    padding: 0;
 }
 main{
     /* text-align: center; */
