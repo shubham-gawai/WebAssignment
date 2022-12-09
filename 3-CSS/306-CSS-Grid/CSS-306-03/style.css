@@ -1,9 +1,14 @@
 body{
-    margin-top: 30px;
+    /* margin-top: 30px;
     margin-left: 12px;
-    width: 1479px;
+    width: 1479px; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 65, 123);
   }
+  /*  <!-- navbar section --> */
    .head-content{
+    margin-top: 30px;
     text-align: center;
     padding-left: 508px;
    }
@@ -29,7 +34,7 @@ body{
     font-size: 10px;
   
   }
-  /* grid section */
+  /*  grids section content*/
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -122,15 +127,16 @@ body{
     height: 279px;
   }
   
+  /*  bottom section footer  */
   .bottom-content{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(158, 131, 101);
-    margin-top: 14px;
+    color: white;
+    background-color: rgb(37, 103, 96);
+    /* margin-top: 14px; */
   }
   .bottom{
     display: flex;
-    
   }
   .bottom div p{
     padding-left: 12px;
