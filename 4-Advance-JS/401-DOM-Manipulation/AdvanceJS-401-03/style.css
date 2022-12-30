@@ -4,21 +4,24 @@ body {
 }
 .slide > img {
   width: 100%;
-  height: 610px;
+  height: 680px;
+  /* border: 2px solid rgb(5, 5, 5); */
+  /* box-shadow: 4px 4px 4px #c46458; */
+
+
 }
 .slide {
   width: 100%;
 }
 .slide-container {
   position: relative;
-  border: 2px solid;
   width: 100%;
 }
 .arrow {
   position: absolute;
   cursor: pointer;
   top: 36%;
-  background-color: rgba(205, 189, 189, 0.447);
+  background-color: rgba(175, 12, 12, 0.447);
   padding: 8px;
   border-radius: 30%;
 }
