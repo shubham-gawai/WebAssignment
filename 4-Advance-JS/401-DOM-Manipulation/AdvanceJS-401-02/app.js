@@ -1,6 +1,6 @@
 // alert("hey I am working");
 
-let arr=document.getElementsByClassName('container');
+let arr = document.getElementsByClassName('container');
 
 for(let i=0;i<arr.length;i++){
     if(i==0){
