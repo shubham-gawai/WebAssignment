@@ -1,8 +1,9 @@
 
-const input=(e)=>{
+const func=(e)=>{
     const text=document.getElementById('wrote');
-    const value=(e.target.value);
-    text.innerHTML=value;
+    const inputtext =(e.target.value);
+    text.innerHTML= inputtext;
 }
 
-document.getElementById('input-field').addEventListener('input',input);
+const inputref = document.getElementById('input_field');
+inputref.addEventListener('input',func);
