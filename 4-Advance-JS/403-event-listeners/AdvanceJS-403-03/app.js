@@ -1,10 +1,11 @@
+//
 var billAmount = document.getElementById("billAmount");
 var serviceQuality = document.getElementById("serviceQuality");
 var numPeople = document.getElementById("numPeople");
 
-    document.getElementById("spanref").style.display = "none";
-    document.getElementById("h1ref").style.display = "none";
-    document.getElementById("h6ref").style.display = "none";
+document.getElementById("spanref").style.display = "none";
+document.getElementById("h1ref").style.display = "none";
+document.getElementById("h6ref").style.display = "none";
 
 function calculateAmt() {
   if (billAmount.value === "") {

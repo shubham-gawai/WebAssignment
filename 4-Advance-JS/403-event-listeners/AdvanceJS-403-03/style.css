@@ -4,7 +4,7 @@ body {
   background-size: 100vw 100vh;
   color: black;
 }
-#banner{
+#banner {
   height: 650px;
   width: 402px;
 }
@@ -15,12 +15,11 @@ span {
   text-align: center;
 }
 h6 {
-  text-align: center; 
+  text-align: center;
 }
 h1 {
   text-align: center;
   color: brown;
-  
 }
 button {
   background-color: rgb(106, 28, 28);
@@ -31,10 +30,11 @@ button {
   height: auto;
   width: 352px;
 }
-label, .ms-2{
+label,
+.ms-2 {
   font-weight: bold;
 }
 
-.text-center{
+.text-center {
   margin-top: 22px;
 }
