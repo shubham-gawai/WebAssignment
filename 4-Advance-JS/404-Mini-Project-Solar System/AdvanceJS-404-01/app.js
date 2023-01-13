@@ -1,4 +1,4 @@
-//
+// ..
 document.getElementById("calculateF").style.display = "none";
 
 let calculateWeight = () => {

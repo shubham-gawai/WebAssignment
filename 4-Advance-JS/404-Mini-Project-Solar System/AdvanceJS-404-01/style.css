@@ -43,8 +43,6 @@ select {
 }
 #weight {
   padding: 10px;
-
-  /* border-radius: 50%; */
   color: white;
   background-color: rgba(245, 245, 245, 0.174);
 }

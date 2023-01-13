@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="ProjectImage/mercury.png" />
     <link rel="stylesheet" href="style.css" />
+<!-- custom links -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,14 +23,14 @@
     <title>Solar Object</title>
   </head>
   <body>
-    <!-- heading and mass button -->
+<!-- heading and mass button -->
     <p class="heading">Calculate a weight of an object on a planet</p>
     <div class="container">
       <div class="row">
         <div class="col-md-5 mx-auto mt-5">
           <input type="number" placeholder="Mass in Kilogram" id="mass" />
           <select name="" id="dropd" onchange="fn(event)">
-    <!-- select options -->
+<!-- select options -->
             <option value="selectPlanet" selected disabled>
               --Select planet--
             </option>
@@ -59,7 +60,7 @@
       </div>
     </div>
 
-    <!-- display content after input all fields -->
+<!-- display content after input all fields -->
     <div class="container" id="calculateF">
       <div class="row">
         <div
