@@ -38,8 +38,6 @@ function input (e){
 
     })
  
-
- 
 }
 
     inputValue.addEventListener('submit',input);
