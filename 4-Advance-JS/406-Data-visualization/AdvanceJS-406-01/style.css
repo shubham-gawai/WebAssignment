@@ -10,16 +10,18 @@ body{
     padding-top: 2%;
     text-align: center;
     background-image: url('map.jpg');
-    /* opacity: 0.85; */
-    
     height: 450px;
 }
+
 h1{
+  
   font-size: 68px;
 }
+
 h4{
     font-size: 28px;
 }
+
 button{
     height: 32px;
     background-color: rgba(20, 20, 72, 0.789);
@@ -29,6 +31,7 @@ button{
     font-size: 12px;
     padding: 0px 12px 0px 12px;
 }
+
 input{
     width: 420px;
     height: 36px;
@@ -37,24 +40,29 @@ input{
     font-size: 18px;
     padding-left: 20px;
 }
+
 input::placeholder{
     padding-left: 150px;
     font-size: 14px;
 }
+
 i{
     margin-left: 8px; 
     font-size: 20px;
     color: rgba(245, 245, 245, 0.862);
 }
+
 textarea:focus, input:focus{
     outline: 2.2px solid rgba(3, 69, 31, 0.579);
 }
+
 #grid{
     margin-left: 100px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     /* background-color: rgb(21, 126, 168); */
 }
+
 p{
     height: 210px;
     width: 240px;
@@ -67,6 +75,7 @@ p{
     box-shadow: 6px 6px 6px 6px rgba(0, 128, 0, 0.611);
     
 }
+
 #no-of-countries{
     font-size: 18px;
 }
