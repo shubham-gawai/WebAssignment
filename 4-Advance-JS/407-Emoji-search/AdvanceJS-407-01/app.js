@@ -1,6 +1,5 @@
 // 
 
-
 const autosearch = (e) => {
   const value = e.target.value;
   displaySearchResults(value);
