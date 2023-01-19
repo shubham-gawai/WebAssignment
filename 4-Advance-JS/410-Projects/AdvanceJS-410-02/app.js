@@ -20,15 +20,19 @@ searchbtn.addEventListener('click',function(e){
 })
 
 async function Getdata(word){
+
     const response = await fetch(
       `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${apikey}`
     );
+
     const data=await response.json();
      console.log(data);
+
    if(typeof data[0]==='string'){
     let heading =document.createElement('h3');
     heading.innerHTML='Did you mean?'
     notFound.appendChild(heading);
+    
     data.forEach(element => {
         let suggestion=document.createElement('span');
         suggestion.classList.add('suggested');
