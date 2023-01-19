@@ -81,7 +81,6 @@ function validation(e){
         bioColor.style.border = "3px solid red";
        }
 
-
 // if all the fields are correct means border for all input fields are green then the submit button should turn green in backgroung(success) :
         if((firstColor.style.border == "3px solid green") && (lastColor.style.border == "3px solid green") && (emailColor.style.border == "3px solid green") && (passwordColor.style.border == "3px solid green") && (telephoneColor.style.border == "3px solid green") && ( bioColor.style.border == "3px solid green")){
         
