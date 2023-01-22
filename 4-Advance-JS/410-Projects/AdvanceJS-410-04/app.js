@@ -1,5 +1,4 @@
 // 
-
     var inputValue = document.querySelector(".input");
     var city = document.querySelector("#city");
     var windspeed = document.querySelector(".windspeed");
@@ -17,7 +16,6 @@ function input (e){
         alert("enter a city name"); 
     }
 
-    
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${word}&appid=${apiKey}`)
     .then((response)=>response.json()).then((data)=>{
 
@@ -37,7 +35,6 @@ function input (e){
         windspeed.innerHTML ='Wind Speed:'+ ' ' + windspeedValue;
 
     })
- 
 }
 
     inputValue.addEventListener('submit',input);
