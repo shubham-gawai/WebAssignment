@@ -9,7 +9,7 @@
 function input (e){
     e.preventDefault();
     
-    var word=document.getElementById('inputValue').value;
+    var word = document.getElementById('inputValue').value;
     // console.log(word);
 
     if(word===""){

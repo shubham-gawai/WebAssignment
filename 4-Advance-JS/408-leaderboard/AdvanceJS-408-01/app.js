@@ -4,9 +4,7 @@ const addContent = ()=>{
     const lRef = documentgetElementById('lastname');
     const cRef = documentgetElementById('country');
     const sRef = documentgetElementById('score');
-
-
-
+    
 }
 
 document.getElementById('addButton').addEventListener('keyup', addContent);
