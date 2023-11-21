@@ -9,6 +9,10 @@ button {
   border-radius: 12px;
   margin-left: 12px;
 }
+button:hover{
+  transform: scale(1.1);
+  cursor:grab;
+}
 .set {
   padding-top: 40px;
   display: flex;
